@@ -1,0 +1,21 @@
+#\u6D4B\u8BD5\u8BBF\u95EE\u9ED8\u8BA4\u8DEF\u5F84\u4E0B\u7684.html \u6587\u4EF6
+#spring:
+#  mvc:
+#    view:
+#      prefix: /
+#      suffix: .html
+
+spring:
+  mvc:
+    view:
+      prefix:  /WEB-INF/jsp/
+      suffix: .jsp
+  #\u5173\u95ED\u9ED8\u8BA4\u6A21\u677F\u5F15\u64CE
+  thymeleaf:
+    cache: false
+    enabled: false
+
+#server:
+#  servlet:
+#    context-path: /HelloWorld
+#\u6D4B\u8BD5\u81EA\u5B9A\u4E49\u8DEF\u5F84\u4E0B\u7684.jsp \u6587\u4EF6
